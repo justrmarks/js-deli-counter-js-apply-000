@@ -4,6 +4,14 @@ function takeANumber(deliLine, newName) {
   
 }
 
+function takeANumberMod(deliLine) {
+  
+  
+  return ("Welcome. You are number " + (deliLine.push(deliLine.length+1)));
+  
+  
+}
+
 function nowServing(deliLine) {
   if (deliLine.length<1) {
     return "There is nobody waiting to be served!";
